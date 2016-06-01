@@ -71,7 +71,7 @@
           return w.state.hired;
         }).reduce(function(a, b){return a + b}, 0));
       }
-    }, 1000);
+    }, 10);
   }]);
 
   app.controller('ResearchController', ['$compile', function($compile) {
